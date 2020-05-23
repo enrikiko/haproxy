@@ -7,4 +7,4 @@ COPY error.http /etc/haproxy/errors/500.http
 COPY error.http /etc/haproxy/errors/502.http
 COPY error.http /etc/haproxy/errors/503.http
 COPY error.http /etc/haproxy/errors/504.http
-RUN mkdir -p /run/haproxy/dev/log
+RUN mkdir -p /var/lib/haproxy/dev/log
