@@ -8,4 +8,4 @@ COPY 502.http /etc/haproxy/errors/502.http
 COPY 503.http /etc/haproxy/errors/503.http
 COPY 504.http /etc/haproxy/errors/504.http
 RUN mkdir -p /run/haproxy/
-RUN mkdir -p /root/dev/log
+RUN mkdir -p /root/dev
